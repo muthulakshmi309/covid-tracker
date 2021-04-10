@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+.flag {
+  height: 60px;
+  align-self: flex-start;
+}
+h2 {
+    margin: 0;
+    color: #3495c1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.covid-info {
+  padding: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.country-details {
+  display: flex;
+  margin-bottom: 25px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.column {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-right: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.column-second {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-left: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+    padding-bottom: 10px;
+}
+label {
+    font-weight: bold;
+    color: #8e8b8b;
+}
+.info-table .death-cell {
+  color: red;
+}
+.info-table .recovered-cell {
+  color: green;
 }
